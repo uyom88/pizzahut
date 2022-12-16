@@ -433,6 +433,9 @@
 #event_in h2 {
   display: none;
 }
+#event_in .event_h2 {
+  display: none;
+}
 #event_in .event_480 {
   display: block;
   width: 300px;
@@ -441,7 +444,7 @@
   margin: 0 auto;
   cursor: pointer;
   margin-bottom: 50px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid rgb(177, 43, 43);
   box-sizing: border-box;
 }
 
