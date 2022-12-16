@@ -117,7 +117,7 @@
 }
 #main_480 img {
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 
 /* main nav */
@@ -128,10 +128,10 @@
 #main .nav_480 {
   display: block;
   position: absolute;
-  top: 57.2vw;
+  top: 58.2vw;
   /* 275 */
 
-  left: 33.2vw;
+  left: 32.2vw;
   /* 150 */
 }
 #main .nav_480 li {
@@ -169,14 +169,14 @@
 /* con1 */
 #contents {
   width: 100%;
-  height: 450px;
+  height: 420px;
   /* 770 */
 }
 
 #contents .con1 {
   width: 100%;
   /* 1500 */
-  height: 450px;
+  height: 420px;
   position: relative;
 }
 
@@ -396,12 +396,12 @@
 
 #event {
   width: 100%;
-  height: 750px;
+  height: 720px;
 }
 #event_in {
   width: 100%;
-  height: 750px;
-  padding-top: 70px;
+  height: 720px;
+  padding-top: 60px;
 }
 #event_in .event_h2 {
   display: none;
@@ -479,10 +479,10 @@
 #con480 {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 550px;
 }
 #con480 ul {
-  padding-top: 70px;
+  padding-top: 50px;
   width: 100%;
 }
 #con480 ul li {
