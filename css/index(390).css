@@ -6,7 +6,6 @@
 #header {
   width: 100%;
   height: 80px;
-  background-color: black;
 }
 
 #header_in {
@@ -128,10 +127,10 @@
 #main .nav_480 {
   display: block;
   position: absolute;
-  top: 57.2vw;
+  top: 270px;
   /* 275 */
 
-  left: 33.2vw;
+  left: 110px;
   /* 150 */
 }
 #main .nav_480 li {
@@ -215,8 +214,8 @@
 
 #sub1 {
   /* position: absolute;
-  top: 20px;
-  left: 30px; */
+    top: 20px;
+    left: 30px; */
   width: 100%;
   height: 400px;
   margin: 0 auto;
@@ -238,7 +237,7 @@
 #sub1_480 {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 280px;
   margin: 0 auto;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -249,7 +248,7 @@
   float: left;
   margin-left: 30px;
   margin-right: 20px;
-  width: 200px;
+  width: 150px;
   height: 200px;
 }
 #sub1_480 li:last-child {
@@ -258,8 +257,8 @@
 }
 
 #sub1_480 img {
-  padding-left: 20px;
-  width: 150px;
+  padding-left: 5px;
+  width: 140px;
 }
 #sub1_480 p {
   font-size: 12px;
@@ -298,6 +297,7 @@
 #con2_in .img480 img {
   display: block;
   width: 100%;
+  height: 360px;
 }
 #con2_in .img480 .cover {
   width: 100%;
@@ -396,11 +396,11 @@
 
 #event {
   width: 100%;
-  height: 750px;
+  height: 650px;
 }
 #event_in {
   width: 100%;
-  height: 750px;
+  height: 650px;
   padding-top: 70px;
 }
 #event_in .event_h2 {
@@ -419,11 +419,12 @@
 #event_in .list480 li {
   display: block;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 #event_in .list480 li img {
   display: block;
   border-radius: 20px;
-  width: 450px;
+  width: 100%;
   cursor: pointer;
   border: 2px solid #000;
   box-sizing: border-box;
@@ -479,10 +480,9 @@
 #con480 {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 580px;
 }
 #con480 ul {
-  padding-top: 70px;
   width: 100%;
 }
 #con480 ul li {
@@ -494,6 +494,7 @@
 }
 #con480 img {
   width: 100%;
+  height: 160px;
 }
 #con480 .cover {
   width: 100%;
@@ -579,26 +580,33 @@
 }
 #footer480 li {
   float: left;
-  width: 99px;
+  width: 88px;
   /* 140 */
   height: 50px;
-  margin: 0px 10px 0 10px;
+  margin: 0px 10px 0 0;
   /* 20 10 00 */
   line-height: 50px;
   text-align: center;
 }
+#footer480 li:first-child {
+  margin-left: 3px;
+}
+#footer480 li:last-child {
+  margin: 0px 0px 0 0;
+}
 #footer480 li a {
   color: #fff;
+  font-size: 11px;
 }
 
 #footer480 p {
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   padding-top: 90px;
   color: #fff;
 }
 .last {
-  margin-top: 70px;
+  margin-top: 30px;
   text-align: center;
   font-size: 8px;
   display: block;
@@ -630,11 +638,11 @@
   display: block;
   display: flex;
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 155px;
   width: 30px;
 }
 #sns480 img {
-  width: 30px;
+  width: 35px;
   margin-right: 10px;
   /* 18 */
   cursor: pointer;
@@ -652,7 +660,7 @@
 }
 
 /* #top{
-      width: 25px;
-      height: 25px;
-      background-color: darkmagenta;
-  } */
+        width: 25px;
+        height: 25px;
+        background-color: darkmagenta;
+    } */
