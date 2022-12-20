@@ -7,12 +7,17 @@
     <title>xd코딩</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1500px)" href="./css/index(1500).css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1000px)" href="./css/index(1000).css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="./css/index(480).css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 390px)" href="./css/index(390).css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 320px)" href="./css/index(320).css">
     <script src="./js/jquery.js"></script>
     <script src="./js/nav.js"></script>
+    <script src="./js/q_mn.js"></script>
+    <script src="./js/con1.js"></script>
     <script src="./js/mainimg.js"></script>
+    <script src="./js/history.js"></script>
+    <script src="./js/event_slide.js"></script>
 
   </head>
   <body>
@@ -43,7 +48,7 @@
          <!-- nav -->
           <nav class="nav">
             <ul class="main_mn">
-              <li><a href="#">메뉴</a></li>
+              <li><a href="./subpage.html">메뉴</a></li>
               <li><a href="#">E쿠폰주문</a></li>
               <li><a href="#">이벤트&제휴</a></li>
               <li><a href="#">단체주문</a></li>
@@ -53,7 +58,7 @@
           <!-- 풀다운 메뉴 -->
             <div class="sub_mn_area">
               <ul >
-                <li><a href="#">피자</a></li>
+                <li><a href="./subpage.html">피자</a></li>
                 <li><a href="#">마이박스(1인메뉴)</a></li>
                 <li><a href="#">세트</a></li>
                 <li><a href="#">파스타&치킨</a></li>
@@ -124,48 +129,128 @@
       <section id="contents">
         <article class="con1">
           <div id="menu">
-            <ul>
-              <li><a href="#">신메뉴</a></li>
-              <li><a href="#">인기메뉴</a></li>
-              <li><a href="#">마이박스</a></li>
-              <li><a href="#">파스타</a></li>
-              <li><a href="#">사이드</a></li>
+            <ul class="tab">
+              <li class="on" data-tab="menu1"><a href="#">신메뉴</a></li>
+              <li data-tab="menu2"><a href="#">인기메뉴</a></li>
+              <li data-tab="menu3"><a href="#">마이박스</a></li>
+              <li data-tab="menu4"><a href="#">파스타</a></li>
+              <li data-tab="menu5"><a href="#">사이드</a></li>
             </ul>
             <!-- con1 (480) -->
             <p>피자헛 신메뉴 보러가기</p> 
-         </div>
-        
 
-            <div>
+            <div id="menu1" class="tabcont on">
               <ul id="sub1">
-              <li><img src="./images/화면 캡처 2022-08-25 194640.png" alt="" />
-                <p>레몬 크림 쉬림프</p>
-              </li>
-              <li><img src="./images/화면 캡처 2022-08-25 194715.png" alt="" />
-                <p>알로하 하와이</p>
-              </li>
-              <li><img src="./images/화면 캡처 2022-08-25 194315.png" alt="" />
-                <p>돈마호크 로제파스타</p>
-              </li>
+                <li>
+                  <img src="./images/화면 캡처 2022-08-25 194640.png" alt="" />
+                  <p>레몬 크림 쉬림프</p>
+                </li>
+                <li>
+                  <img src="./images/화면 캡처 2022-08-25 194715.png" alt="" />
+                  <p>알로하 하와이</p>
+                </li>
+                <li>
+                  <img src="./images/화면 캡처 2022-08-25 194315.png" alt="" />
+                  <p>돈마호크 로제파스타</p>
+                </li>
+  
+                <li>
+                  <img src="./images/화면 캡처 2022-08-25 195126.png" alt="" />
+                  <p class="txt4">스위트 콘 핑거스</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div id="menu2" class="tabcont">
+              <ul id="sub2">
+                <li>
+                  <img src="./images/sub2_1.png" alt="" />
+                  <p>돈마호크</p>
+                </li>
+                <li>
+                  <img src="./images/sub2_2.png" alt="" />
+                  <p>알로하 하와이</p>
+                </li>
+                <li>
+                  <img src="./images/sub2_3.png" alt="" />
+                  <p>립스테이크</p>
+                </li>
+  
+                <li>
+                  <img src="./images/sub2_4.png" alt="" />
+                  <p class="txt4">웨지포테이토</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div id="menu3" class="tabcont">
+              <ul id="sub3">
+                <li>
+                  <img src="./images/sub3_1.png" alt="" />
+                  <p>오리지널슈프림</p>
+                </li>
+                <li>
+                  <img src="./images/sub3_2.png" alt="" />
+                  <p>알로하 하와이</p>
+                </li>
+                <li>
+                  <img src="./images/sub3_3.png" alt="" />
+                  <p>치즈</p>
+                </li>
+  
+                <li>
+                  <img src="./images/sub3_4.png" alt="" />
+                  <p class="txt4">페퍼로니</p>
+                </li>
+              </ul>
+            </div>
+  
+            <div id="menu4" class="tabcont">
+              <ul id="sub4">
+                <li>
+                  <img src="./images/sub4_1.png" alt="" />
+                  <p>돈마호크 로제파스타</p>
+                </li>
+                <li>
+                  <img src="./images/sub4_2.png" alt="" />
+                  <p>크림 치킨 파스타</p>
+                </li>
+                <li>
+                  <img src="./images/sub4_3.png" alt="" />
+                  <p>리치 치즈 파스타</p>
+                </li>
+  
+                <li>
+                  <img src="./images/sub4_4.png" alt="" />
+                  <p class="txt4">해피콤보세트</p>
+                </li>
+              </ul>
+            </div>
 
-              <li><img src="./images/화면 캡처 2022-08-25 195126.png" alt="" />
-                <p class="txt4">스위트 콘 핑거스</p>
-              </li>
-            </ul>
-          </div>
-          
+            <div id="menu5" class="tabcont">
+              <ul id="sub5">
+                <li>
+                  <img src="./images/sub5_1.png" alt="" />
+                  <p>스위트 갈릭 핑거스</p>
+                </li>
+                <li>
+                  <img src="./images/sub5_2.png" alt="" />
+                  <p>스위트 콘 핑거스</p>
+                </li>
+                <li>
+                  <img src="./images/sub5_3.png" alt="" />
+                  <p>대만 연유 치즈볼</p>
+                </li>
+  
+                <li>
+                  <img src="./images/sub5_4.png" alt="" />
+                  <p class="txt4">팝콘치킨(20ea)</p>
+                </li>
+              </ul>
+            </div>
 
-          <!-- con1 (480) -->
-          <div>
-            <ul id="sub1_480">
-            <li><img src="./images/화면 캡처 2022-08-25 194640.png" alt="" />
-              <p>레몬 크림 쉬림프</p>
-            </li>
-            <li><img src="./images/화면 캡처 2022-08-25 194715.png" alt="" />
-              <p>알로하 하와이</p>
-            </li>
-          </ul>
-        </div>
+         </div>
+
         <!-- -------------------------------------------------------------- -->
 
           <!-- <div>
@@ -185,6 +270,19 @@
               </li>
             </ul>
           </div> -->
+
+          
+            <!-- con1 (480) -->
+            <div>
+              <ul id="sub1_480">
+              <li><img src="./images/화면 캡처 2022-08-25 194640.png" alt="" />
+                <p>레몬 크림 쉬림프</p>
+              </li>
+              <li><img src="./images/화면 캡처 2022-08-25 194715.png" alt="" />
+                <p>알로하 하와이</p>
+              </li>
+            </ul>
+          </div>
         </article>
       </section>
 
@@ -236,27 +334,44 @@
           <ul>
             <li><img src="./images/history_1985_b.png" alt=""  />
               <div class="cover1">
-                <!-- <p class="ttl">최초로</br>국내에</br>피자보급</p>
-              </div> -->
+                <p class="ttl">최초로</br>국내에</br>피자보급</p>
+              </div>
               <h4>1985</h4></li>
 
               <li><img src="./images/history_1986_b.png" alt=""  />
+                <div class="cover1">
+                  <p class="ttl">최초로</br>딜리버리</br>서비스시작</p>
+                </div>
               <h4>1986</h4></li>
 
               <li><img src="./images/history_1996_b.png" alt="" />
+                <div class="cover1">
+                  <p class="ttl">최초로</br>혁신적인</br>엣지 피자 제공</p>
+                </div>
               <h4>1996</h4></li>
 
               <li><img src="./images/history_1997_b.png" alt="" />
+                <div class="cover1">
+                  <p class="ttl">최초로</br>핫파우치</br>배달</p>
+                </div>
               <h4>1997</h4></li>
 
               <li><img src="./images/history_2011_b.png" alt="" />
+                <div class="cover1">
+                  <p class="ttl">최초로</br>통합 멤버십</br>출시</p>
+                </div>
               <h4>2011</h4></li>
 
               <li><img src="./images/history_2012_b.png" alt="" />
+                <div class="cover1">
+                  <p class="ttl">최초로</br>박스제품</br>출시</p>
+                </div>
               <h4>2012</h4></li>
-
           </ul>
+
+         
         </div>
+
       </section>
 
       <!--event -->
@@ -265,6 +380,7 @@
        
           <div class="event_h2"><h2>피자헛 소식 더 알아보기</h2></div>
           <div><h2 class="event_480">피자헛 소식 더 알아보기</h2></div>
+          <div id="event_box">
            <div id="slide">
             <div class="view">
                 <ul class="list">
@@ -284,6 +400,7 @@
         <div class="btn2">
             <button class="prev">◀</button>
             <button class="next">▶</button>
+        </div>
         </div>
         
         
