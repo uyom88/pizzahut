@@ -636,7 +636,7 @@ ul.tab li.on {
   width: 11.9vw;
   margin-top: 60px;
   border-radius: 50%;
-  border: 1px solid rgb(149, 149, 149);
+  border: 1px solid #ccc;
   background-color: #f1f1f1;
   box-sizing: border-box;
   cursor: pointer;
