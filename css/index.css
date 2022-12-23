@@ -188,17 +188,14 @@
 }
 #main .imgs li:nth-child(1) {
   left: 0%;
-  background-color: rgb(123, 97, 236);
 }
 
 #main .imgs li:nth-child(2) {
   left: 100%;
-  background-color: violet;
 }
 
 #main .imgs li:nth-child(3) {
   left: 200%;
-  background-color: rgb(51, 52, 116);
 }
 
 /* main btn */
