@@ -115,7 +115,7 @@
 }
 #main_480 img {
   width: 100%;
-  height: 350px;
+  height: 320px;
 }
 
 /* main nav */
@@ -262,7 +262,7 @@
   float: left;
   margin-left: 30px;
   margin-right: 20px;
-  width: 120px;
+  width: 41.6vw;
   height: 200px;
 }
 #sub1_480 li:last-child {
@@ -272,7 +272,7 @@
 
 #sub1_480 img {
   padding-left: 0;
-  width: 120px;
+  width: 31.2vw;
 }
 #sub1_480 p {
   font-size: 12px;
