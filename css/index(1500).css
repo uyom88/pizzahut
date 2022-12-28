@@ -284,7 +284,7 @@
 }
 #menu > ul > li {
   float: left;
-  width: 8vw;
+  width: 10vw;
   /* 120 */
   height: 70px;
   margin-right: 50px;
@@ -293,7 +293,7 @@
   margin-right: 0px;
 }
 #menu > ul > li a {
-    font-size: 14px;
+  font-size: 17px;
   font-weight: 800;
 }
 
@@ -303,7 +303,7 @@
   left: 30px; */
   width: 100%;
   /* 1400 */
-  height: 450px;
+  height: 400px;
   margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 50px;
@@ -317,7 +317,7 @@
 #sub1 li p {
   padding-top: 20px;
   text-align: center;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -328,158 +328,6 @@
 }
 #sub1 .txt4 {
   padding-left: 28px;
-}
-/* sub2 */
-#sub2 {
-  /* position: absolute;
-  top: 20px;
-  left: 30px; */
-  width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 80px;
-  box-sizing: border-box;
-}
-
-#sub2 li {}
-
-#sub2 li p {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  display: block;
-}
-
-#sub2 img {
-  width: 18.6vw;
-  cursor: pointer;
-}
-
-#sub2 .txt4 {
-  padding-left: 15px;
-}
-
-/* sub3 */
-#sub3 {
-  /* position: absolute;
-  top: 20px;
-  left: 30px; */
-  width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 80px;
-  box-sizing: border-box;
-}
-
-#sub3 li {}
-
-#sub3 li p {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  display: block;
-}
-
-#sub3 img {
-  width: 18.6vw;
-  cursor: pointer;
-}
-
-#sub3 .txt4 {
-  padding-left: 15px;
-}
-
-/* sub4 */
-#sub4 {
-  /* position: absolute;
-  top: 20px;
-  left: 30px; */
-  width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 80px;
-  box-sizing: border-box;
-}
-
-#sub4 li {}
-
-#sub4 li p {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  display: block;
-}
-
-#sub4 img {
-  width: 18.6vw;
-  cursor: pointer;
-}
-
-#sub4 .txt4 {
-  padding-left: 15px;
-}
-
-/* con1 (480) */
-#sub1_480 {
-  display: none;
-}
-
-#menu p {
-  display: none;
-}
-
-/* sub5 */
-#sub5 {
-  /* position: absolute;
-  top: 20px;
-  left: 30px; */
-  width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 80px;
-  box-sizing: border-box;
-}
-
-#sub5 li {}
-
-#sub5 li p {
-  padding-top: 20px;
-  text-align: center;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  display: block;
-}
-
-#sub5 img {
-  width: 18.6vw;
-  cursor: pointer;
-}
-
-#sub5 .txt4 {
-  padding-left: 15px;
 }
 
 /* con1 (480) */
@@ -561,9 +409,9 @@
 }
 #con2_in .con2_ttl2 {
   position: absolute;
-  top: 32.7vw;
+  top: 40vw;
   /* 490 */
-  right: 9.8vw;
+  right: 9.7vw;
   /* 148 */
   font-size: 6vw;
   /* 90 */
@@ -601,7 +449,7 @@
   position: relative;
   width: 15.3vw;
   /* 230 */
- height: 15.3vw;
+  height: 380px;
 }
 #history ul li:first-child {
   margin-left: 20px;
@@ -610,7 +458,7 @@
   width: 15.3vw;
   margin-top: 60px;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(149, 149, 149);
   background-color: #f1f1f1;
   box-sizing: border-box;
   cursor: pointer;
@@ -622,22 +470,22 @@
   cursor: pointer;
 }
 /* cover */
- #history .cover1 {
+/* #history .cover1 {
   position: absolute;
   top: 60px;
   left: 0;
-  width: 15.3vw;
-    height: 15.3vw;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.5);
 }
 #history .cover1 .ttl {
-  padding-top: 65px;
+  padding-top: 85px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 20px;
   color: #fff;
   font-weight: 800;
-} 
+} */
 
 /* event  */
 #event {
@@ -672,12 +520,9 @@
   border-bottom: 2px solid rgb(210, 27, 27);
 }
 .btn2 {
-  position: absolute;
-  top: 360px;
-  left: 0;
-  width: 100px;
-  height: 50px;
+  margin-left: 33.8vw;
   /* 100 */
+  padding-top: 10px;
 }
 
 button {
@@ -688,13 +533,6 @@ button {
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
-}
-
-#event_box {
-  margin: 0 auto;
-  width: 600px;
-  height: 350px;
-  position: relative;
 }
 
 #slide {

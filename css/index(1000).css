@@ -234,7 +234,6 @@
   line-height: 70px;
   text-align: center;
 }
-/* 480 p */
 #menu p {
   display: none;
 }
@@ -244,12 +243,11 @@
   justify-content: center;
   width: 100%;
   overflow: hidden;
-
 }
 
 .tab li {
   float: left;
-  width: 8vw;
+  width: 10vw;
   /* 120 */
   height: 70px;
   margin-right: 50px;
@@ -259,7 +257,7 @@
 }
 
 .tab li a {
-    font-size: 14vw;
+  font-size: 15px;
   /* 17 */
   font-weight: 800;
 }
@@ -653,9 +651,9 @@ ul.tab li.on {
 }
 #history ul li {
   position: relative;
-  width: 15.3vw;
+  width: 25%;
   /* 250 */
-  height: 15.3vw;
+  height: 380px;
   /* margin-right: 5px; */
 }
 #history ul li:first-child {
@@ -665,11 +663,11 @@ ul.tab li.on {
   margin-right: 0px;
 }
 #history ul li img {
-  width: 15.3vw;
+  width: 150px;
   /* 230 */
   margin-top: 60px;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(149, 149, 149);
   background-color: #f1f1f1;
   box-sizing: border-box;
   cursor: pointer;
@@ -681,23 +679,23 @@ ul.tab li.on {
   text-align: center;
   cursor: pointer;
 }
-#history .cover1 {
+/* #history .cover1 {
   position: absolute;
   top: 60px;
   left: 0;
-  width: 15.3vw;
-  height: 15.3vw;
+  width: 25%;
+  height: 230px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.5);
 } 
 #history .cover1 .ttl {
-  padding-top: 60px;
+  padding-top: 85px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 20px;
   color: #fff;
   font-weight: 800;
 }
-
+*/
 /* event  */
 
 #event {
@@ -739,12 +737,10 @@ ul.tab li.on {
   border-bottom: 2px solid rgb(210, 27, 27);
 }
 .btn2 {
-  position: absolute;
-  top: 270px;
-  left: 0;
-  width: 100px;
-  height: 50px;
-    /* 100 */
+  margin-left: 28.8vw;
+  /* 650 */
+  padding-top: 10px;
+  /* 10 */
 }
 button {
   padding: 0.2vw 0.7vw;
@@ -755,12 +751,7 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
-#event_box {
-  margin: 0 auto;
-  width: 400px;
-  height: 250px;
-  position: relative;
-}
+
 #slide {
   margin: 0 auto;
   margin-bottom: 0;
